@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle 7a29qchj</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  
+
+  <script>
+    
+var nombre = prompt("Ingresa tu nombre");
+var carnet = parseInt(prompt("Ingresa tu número de carnet"),10);
+let jugar;
+do{
+const numeromaquina = Math.floor(Math.random()*9)+1;
+console.log(numeromaquina);
+var numerojugador = parseInt(prompt("Ingresa un número entre el 3 y el 6"),10);
+while (numerojugador<3 || numerojugador>6){
+  numerojugador = parseInt(prompt("Ingresa un número entre el 3 y el 6"),10);
+}
+var adivinanza = prompt("¿Tu número es: mayor, menor o igual al de la maquina?");
+if (numeromaquina < numerojugador && adivinanza == "mayor"){
+  alert("El número de la máquina es:"+" "+numeromaquina+"."+" "+"Tu número es"+" "+numerojugador+"."+" "+"Tu elección es mayor ¡Has adivinado!");
+}else if (numeromaquina > numerojugador && adivinanza == "menor"){
+  alert("El número de la máquina es:"+" "+numeromaquina+"."+" "+"Tu número es"+" "+numerojugador+"."+" "+"Tu elección es menor ¡Has adivinado!");
+}else if(numeromaquina == numerojugador && adivinanza == "igual"){
+  alert("El número de la máquina es:"+" "+numeromaquina+"."+" "+"Tu número es"+" "+numerojugador+"."+" "+"Tu elección es igual ¡Has adivinado!");
+}else{
+  alert("El número de la máquina es:"+" "+numeromaquina+"."+" "+"Tu número es"+" "+numerojugador+"."+" "+"¡No has adivinado!");
+}
+jugar = prompt("¿Quieres seguir jugando? si, no");
+while(!["si","no"].includes(jugar)){jugar = prompt("¿Quieres seguir jugando?");
+}
+} while(jugar == "si");
+alert("nombre:"+" "+nombre+"   "+"Carnet:"+" "+carnet);
+
+
+
+  </script>
+</body>
+</html>

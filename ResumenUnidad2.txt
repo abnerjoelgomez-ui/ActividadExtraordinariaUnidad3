@@ -1,0 +1,26 @@
+Resumen Unidad 2
+
+Enunciados y Veracidad:
+A los enunciados también les podemos llamar proposiciones, estos solo tienen salidas de tipo Verdadero o Falso.
+Las proposiciones pueden ser: Simples o Atómicas y/o Compuestas o Complejas.
+Las proposiciones son compuestas cuando se unen por conectivos lógicos.
+Las proposiciones regularmente son identificadas con letras del alfabeto: p, q, r, s, t.
+
+Conectivos Lógicos:
+Estos son: "Y" conocido como conjunción; "O" conocido como disyunción; "No" conocido como negación". Esta última convierte un valor verdadero a falso y un valor falso en verdadero.
+Una conjunción tiene salida verdadera solo cuando todos los enunciados son verdaderos, de lo contrario, se considera falsa.
+Una disyunción se considera falsa cuando todos los enunciados son falsos, de lo contrario, se considera verdadera.
+Existen otros conectivos lógicos:
+Implicación "entonces"; Doble implicación "Si y solo si"
+Una implicación se considera verdadera cuando todos los enunciados o el segundo son verdaderos, de lo contrario se considera falsa.
+Una doble implicación se considera verdadera cuando todos los enunciados son falsos o verdaderos. De lo contrario se considera falsa.
+
+Conceptos básicos de programación:
+1.Lenguaje de programación: necesario para escribir en nuestro lenguaje las instrucciones para la máquina.
+2. Variables y constantes: las variables guardan datos que son cambiantes durante la ejecución y las constantes son datos que no tendrán ningún cambio durante se ejecute.
+3.Tipos de datos: Los tipos de datos pueden ser de tipo carácter o cadena de caracteres, numéricos y lógicos (verdadero o falso).
+
+El control del flujo:
+Es el orden en el que se ejecutan las instrucciones. Existen controles Condicionales y ciclos.
+
+En esta unidad con lo que tuve problema, sentí un poco difícil aprender el lenguaje de programación.

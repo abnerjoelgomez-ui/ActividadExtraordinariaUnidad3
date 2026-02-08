@@ -1,0 +1,12 @@
+Resumen Unidad 1
+
+Código Binario:
+Es el lenguaje de las computadoras. Este lenguaje está compuesto de bytes (estos equivalen a 8 bits) los cuales se ven de la siguiente manera: 01010101.
+En el código binario el "0" se interpreta como apagado y el "1" como encendido lo que nos lleva a comprender que en el código ASCII por ejemplo si tenemos en código binario 00001111 sumamos los "unos" es decir los bits activos o abiertos.
+
+Lenguaje de programación:
+Un lenguaje de programación es un traductor o interprete que se utiliza para comunicarnos con la computadora, ya que traduce nuestro lenguaje a código binario, y de esta manera sea mas fácil dar instrucciones a la máquina.
+
+Algoritmos:
+Son una serie de pasos detallados y concisos que se le dan a la computadora para ejecutar una tarea.
+

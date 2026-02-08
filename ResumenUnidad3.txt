@@ -1,0 +1,8 @@
+Resumen Unidad 3
+
+Controladores de versiones:
+Un controlador de versiones nos ayuda a tener detalles de los cambios realizados al código, facilitando así la revisión o reestructuración ya que sabremos con claridad por ejemplo, en donde falló después de haber realizado alguna modificación. Además nos da la pauta para revisión a un cambio antes de producirlo.
+
+Git es un controlador de versiones, este controlador se utiliza a base de comandos o desde la plataforma web.
+
+En esta unidad me está siendo un poco complicado entender el procedimiento para cargar los archivos en git.
